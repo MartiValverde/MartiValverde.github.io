@@ -82,9 +82,11 @@
 
 #Nom_gran{
   position: absolute;
+  display:flex;
+  vertical-align: center;
   top: 35px; 
   left: 235px;
-  height: 130px;
+  height: auto;
   z-index: 2 !important;
 }
 
