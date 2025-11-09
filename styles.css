@@ -19,6 +19,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   z-index: 2;
+  display: inline;
 }
 
 .Pantalla{
@@ -31,6 +32,10 @@ body {
 .text-normal li {
   font-size: 24px;
   color: #000000;
+}
+
+.text-normal {
+  flex-wrap: wrap;
 }
 
 .text-normal p {
@@ -71,12 +76,20 @@ body {
 }
 
 #img_foto{
+  
   position: absolute;
-  top: 250px;
-  left: 100px;
-  width: 600px;
-  height: 600px;
+  top: 35px;
+  left: 85px;
+  width: 130px;
+  height: 130px;
   z-index: 2;
+}
+
+#nom_gran{
+  position: absolute;
+  top: 50px;
+  left: 150px; 
+  z-index: 2 ; 
 }
 
 
