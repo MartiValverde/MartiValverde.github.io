@@ -13,9 +13,8 @@
 }
 
 body {
-  font-family: var(--font);
-  margin: 0;
-  padding: 0;
+  font: var(--font), serif ;
+
   box-sizing: border-box;
   position: relative;
   color: #000000;   
@@ -25,6 +24,8 @@ body {
 .text-normal li {
   font-size: 24px;
   color: #000000;
+  font-weight: normal;
+ 
 }
 
 .text-normal {
