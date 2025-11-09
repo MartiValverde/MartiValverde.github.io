@@ -7,7 +7,6 @@
        url('fonts/playfair-display.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 :root {
   --font: "Playfair Display";
@@ -20,18 +19,19 @@ body {
   box-sizing: border-box;
   z-index: 2;
   display: inline;
+  background-color: aquamarine;
 }
 
 .Pantalla{
   width: 1920px;
   height: 1080px;
-    color: lightblue;
-    z-index: 0;
-  }
+   color: lightblue;
+  z-index: 0;
+}
 
   .text-normal li {
     font-size: 24px;
-    margin: 10px 0;
+    color: #000000;
   }
 
   .text-normal {
